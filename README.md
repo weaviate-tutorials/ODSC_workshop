@@ -55,17 +55,14 @@ source deactivate
 
 ## Run the project in GitHub Codespaces
 
-1. Go to the project [https://github.com/weaviate-tutorials/weaviate-workshop](https://github.com/weaviate-tutorials/weaviate-workshop).
+1. Go to the project [https://github.com/weaviate-tutorials/ODSC_workshop](https://github.com/weaviate-tutorials/ODSC_workshop).
 
-2. Switch to the [nyc-roadshow](https://github.com/weaviate-tutorials/weaviate-workshop/tree/nyc-roadshow) branch.
-
-3. Create a Codespace project
+2. Create a Codespace project
   * Press the green `Code` button, then switch to `Codespaces` tab.
   * Press `...` (next to the `+` button) and select `New with options...`
-  * Select `nyc-roadshow` branch,
   * Change the `Machine type` to `4-core` and press the green `Create codespace` button
 
-4. After the codespace is ready – set up the evironment and install the required libraries. Run:
+3. After the codespace is ready – set up the evironment and install the required libraries. Run:
 ```
 python3 -m venv .venv
 source .venv/bin/activate
