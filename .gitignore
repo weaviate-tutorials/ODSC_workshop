@@ -1,0 +1,10 @@
+.venv
+__pycache__/
+
+# distill files
+**/dl_data/
+.DS_Store
+
+
+# ignore temp files/folders with names starting with __
+__*
